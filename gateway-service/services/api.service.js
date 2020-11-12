@@ -16,7 +16,10 @@ module.exports = (broker) => {
                     // ]
 
                     aliases: {
-                        "GET projects": "projects.listProjects"
+                        "GET projects": "projects.listProjects",
+                        "GET projects/client/:id": "projects.listClientProjects",
+                        "GET clients": "clients.listClients",
+                        "GET clients/active-projects": "clients.listActiveProjects",
                     }
                 }
             ]

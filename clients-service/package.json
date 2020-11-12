@@ -1,5 +1,5 @@
 {
-  "name": "gateway-projects",
+  "name": "clients-service",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +11,7 @@
   "dependencies": {
     "moleculer": "^0.14.11",
     "moleculer-web": "^0.9.1",
-    "nats": "^1.4.12"
+    "nats": "^1.4.12",
+    "superagent": "^6.1.0"
   }
 }
