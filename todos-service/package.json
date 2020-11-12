@@ -1,21 +1,16 @@
 {
-  "name": "moleculer-services",
+  "name": "todos-service",
   "version": "1.0.0",
-  "description": "Bunch of stuff for moleculer",
+  "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Tshepiso",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "moleculer": "^0.14.11",
     "moleculer-web": "^0.9.1",
     "nats": "^1.4.12"
-  },
-  "devDependencies": {
-    "eslint": "^7.13.0",
-    "eslint-config-google": "^0.14.0"
   }
 }
